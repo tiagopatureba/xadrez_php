@@ -34,6 +34,8 @@ echo $bispoBranco->getImagem();
 echo $rainhaBranca->getImagem();
 echo $reiBranco->getImagem();
 
+$tabuleiro[0][0] = $torrePreta;
+
 
 echo '<table width="45%" height="80%" border="1" align="center">';
 for ($i = 0; $i <= 7; $i++) {
@@ -45,7 +47,7 @@ for ($i = 0; $i <= 7; $i++) {
             echo '</td>';
         } else {
             echo '<td align="center" bgcolor="#FFFFF">';
-
+                    echo $tabuleiro[0][0]->getImagem();
             echo '</td>';
         }
     }

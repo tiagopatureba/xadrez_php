@@ -8,7 +8,7 @@ abstract class Pecas {
     }
 
     protected function setImagem($imagem){
-        $this->imagem = "<img src='PecasPNG/$imagem.png' width='45'>";
+        $this->imagem = "<img src='PecasPNG/$imagem.png' width='60'>";
     }
 
     public function getImagem(){
